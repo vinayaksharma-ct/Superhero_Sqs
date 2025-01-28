@@ -12,7 +12,7 @@ public class SQS_Sender {
     private AmazonSQS amazonSQS;
 
     // URL of your LocalStack SQS queue
-    private static final String QUEUE_URL = "http://sqs.us-east-1.localhost.localstack.cloud:4566/000000000000/localstack-queue";
+    private static final String QUEUE_URL = "http://sqs.us-east-1.localhost.localstack.cloud:4566/000000000000/localstack";
 
     /**
      * Method to send a message to the SQS queue.

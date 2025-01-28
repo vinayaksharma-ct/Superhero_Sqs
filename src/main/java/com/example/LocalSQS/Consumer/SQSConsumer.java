@@ -15,7 +15,7 @@ import java.util.Optional;
 @Service
 public class SQSConsumer {
 
-    private static final String QUEUE_URL = "http://localhost:4566sta/000000000000/localstack-queue"; // LocalStack Queue URL
+    private static final String QUEUE_URL = "http://localhost:4566/000000000000/localstack"; // LocalStack Queue URL
 
     private final SuperheroRepository superheroRepository;
 
